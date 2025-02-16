@@ -38,7 +38,7 @@ class Account{
             balance -= money;
             return money;
         }
-        void ShowAccInfo(){
+        void ShowAccInfo() const {
             cout<<"계좌ID: "<<accID<<endl;
             cout<<"이 름: "<<cusName<<endl;
             cout<<"잔 액: "<<balance<<endl;
